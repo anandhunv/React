@@ -2,3 +2,39 @@
     text-transform: uppercase;
     background-color: black;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  
+  .search {
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+  }
+  
+  .user img {
+    width: 30px;
+  }
+  

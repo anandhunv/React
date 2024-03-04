@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "React Mastering by Anandhu",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "demo":"parcel do.html",
     "test": "jest"
   },
   "repository": {
